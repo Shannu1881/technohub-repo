@@ -115,3 +115,88 @@
   }
 
 } */
+
+
+.accordion {
+  background-color: #f0f8ff;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+  font-weight: bold;
+  
+}
+
+/* accordion section css */
+ .accordion:hover {
+  background-color: #ccc; 
+}
+
+.accordion:after {
+ content: '\002B';
+ color: #777;
+ font-weight: bold;
+ float: right;
+ margin-left: 5px;
+}
+
+.active:after {
+ content: "\2212";
+}
+
+.active:after {
+  content: "\2212";
+}
+ 
+ .panel {
+   padding: 0 18px;
+   display: none;
+   background-color: 	#f0ffff;
+   overflow: hidden;
+   font-weight: bold;
+ } 
+
+
+ /* fade-up-text-css */
+
+.fade-up-text {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s, transform 1s;
+  margin-left: 20px
+}
+
+/* .site-map{
+  display: block;
+} */
+
+#site-map li {
+  list-style-type: none;
+  color: white;
+  cursor: pointer;
+  text-align: -webkit-match-parent;
+  display: block;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  line-height: 200%;
+}
+
+li a:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+.each-line {
+  display: grid;
+  grid-template-columns: 20px auto;
+  column-gap: 12px;
+}
