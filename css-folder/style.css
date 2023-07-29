@@ -1,0 +1,26 @@
+/* Custom CSS for the rectangular box */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  /* Optional: Adjust the styles to your preference */
+  

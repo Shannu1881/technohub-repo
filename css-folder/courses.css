@@ -1,0 +1,117 @@
+/* *
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+} */
+.card-img-top {
+  margin-top: 20px;
+  margin-left: 100px;
+  align-content: center;
+  height: 100px;
+  width: 30%;
+}
+
+.text-container {
+  background-color: rgb(10, 46, 113);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: rgb(217, 229, 251);
+}
+
+.card-body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: absolute;
+  z-index: 999999;
+}
+
+.hide {
+  display: none;
+}
+
+.card:hover>.hide {
+  display: block;
+}
+
+/* contact page */
+#contact-form {
+  background-color: rgb(10, 46, 113);
+  width: 100%;
+  height: auto;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.request {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+#contact-input input {
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+#submit-btn {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 5px 30px;
+  /* background-color:rgb(160, 29, 29); */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 45px;
+  width: 25%;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+
+/* navigation bar */
+#topnav {
+  padding: 10px;
+  background-color: rgb(23, 23, 114);
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#topnav li {
+  display: inline;
+  padding: 7px;
+  color: white;
+  cursor: pointer;
+}
+
+#topnav li:hover {
+  color: orange;
+}
+
+/* @media only screen and (min-width: 600px) {
+  #topnav {
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+} */
