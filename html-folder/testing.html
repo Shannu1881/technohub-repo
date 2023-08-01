@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
         integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <!-- Add Bootstrap CSS link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css-folder/home.css"> <!-- Custom CSS for centering the navigation bar -->
@@ -29,11 +33,23 @@
 </head>
 
 <body>
-    <section class="container-fluid bg-light">
+
+    <section>
+        <div class="d-flex justify-content-around" id="enquery-sec">
+            <div>
+                <label for=""> New Course Enquery : +916363086929</label>
+            </div>
+            <div>
+                <label for=""> E-mail : info@technohubtrainings.com</label>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container-fluid bg-light" style="font-weight: bold; color: black;">
         <div class="container text-center"> <!-- Center the navigation bar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                    <img src="/img/technohub.jpg" alt="technohub" width="100%" height="80px">
+                    <img src="/img/technohub.jpg" alt="technohub" width="100%" height="80px" class="nav-logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,12 +74,12 @@
                                 <a class="dropdown-item" href="testing.html">Testing</a>
                                 <a class="dropdown-item" href="sql.html">SQL</a>
                                 <a class="dropdown-item" href="android.html">Android</a>
+                                <a class="dropdown-item" href="GitHub.html">GitHub</a>
                                 <a class="dropdown-item" href="devops.html">DEVOPS</a>
-                                <a class="dropdown-item" href="devops.html">Cybersecurity</a>
-                                <a class="dropdown-item" href="devops.html">Microsoft</a>
-                                <a class="dropdown-item" href="devops.html">Azure</a>
-                                <a class="dropdown-item" href="devops.html">power BI</a>
-                                <a class="dropdown-item" href="devops.html">GitHub</a>
+                                <a class="dropdown-item" href="cybersecurity.html">Cybersecurity</a>
+                                <a class="dropdown-item" href="microsoft.html">Microsoft</a>
+                                <a class="dropdown-item" href="azure.html">Azure</a>
+                                <a class="dropdown-item" href="powerbi.html">power BI</a>   
                             </div>
                         </li>
                         <!-- <li class="nav-item">
@@ -78,116 +94,164 @@
         </div>
     </section>
 
-    <section class="mt-5 mb-5">
+    <section class="python-banner">
         <div class="container-fluid">
-            <ul id="topnav">
-                <li>
-                    <a href="react.html" class="mylink">ReactJS</a>
-                </li>
-                <li>
-                    <a href="java.html" class="mylink">Java</a>
-                </li>
-                <li>
-                    <a href="python.html" class="mylink">Python</a>
-                </li>
-                <li>
-                    <a href="testing.html" class="mylink">Testing</a>
-                </li>
-                <li>
-                    <a href="nodejs.html" class="mylink">NodeJS</a>
-                </li>
-                <li>
-                    <a href="angular.html" class="mylink">AngularJS</a>
-                </li>
-                <li>
-                    <a href="android.html" class="mylink">Android</a>
-                </li>
-                <li>
-                    <a href="sql.html" class="mylink">SQL</a>
-                </li>
-                <li>
-                    <a href="GitHub.html" class="mylink">GitHub</a>
-                </li>
-                <li>
-                    <a href="DevOps.html" class="mylink">DevOps</a>
-                </li>
-            </ul>
+            <img src="/img/automation.jpg" alt="" class="img-fluid" width="100%">
         </div>
     </section>
 
-    <section style="background-color:#E0FFFF;">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-md-8 mt-5 mb-5">
-                    <h2 class="mt-5" style="font-weight: bold;">Manual Testing Overview</h2>
-                    <p class="mt-3 mb-5">
-                        Manual testing remains an essential and widely-used testing approach to ensure software quality.
-                        It complements automated testing and is valuable for exploring the user experience and ensuring
-                        that the application functions as expected in various scenarios. Effective manual testing, when
-                        performed meticulously, can significantly contribute to delivering high-quality software
-                        products to end-users.
-                    </p>
-                </div>
-                <div class="col-md-4 mt-5 text-center">
-                    <img class=" mt-3"
-                        src="https://www.a2nacademy.com/front-end-web-development-course-with-react/assets/images/front-end-web-development-course-with-react.png"
-                        width="80%" height="65%" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-11">
-                <!-- <h3 class="text-container">Software Testing Certification and Training Courses</h3> -->
-                <h5><b>Overview</b></h5>
-                <p>Software Testing is the process of verifying and validating that a software program
-                    or application meets the requirements and performs as expected. It is used to
-                    identify any bugs, errors, or missing requirements in the software.
-                    Software Testing is used to ensure that the software is reliable, secure,
-                    and of high quality. Major vendors for this technology include HP, IBM,
-                    Microsoft, Oracle, and SAP. These vendors provide software testing services,
-                    tools, and solutions to help organizations ensure the quality of their software
-                    products.
-                </p>
-                <h5><b> Software Testing Training and Certification Courses</b></h5>
-                <p>Software Testing training and Certification Courses are designed to help
-                    professionals gain the knowledge and skills needed to become proficient in
-                    software testing. These courses cover topics such as software testing
-                    fundamentals, test automation, test management, and more. Upon completion
-                    of the course, participants will receive a certification that will demonstrate
-                    their expertise in software testing.</p>
-            </div>
-        </div>
-    </div>
     <section>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 mb-3" id="search-homepage">
+                    <div class="" id="search-span">
+                        <form id="searchForm">
+                            <div class="search-form">
+                                <span> <input type="text" name="search" placeholder="what do you want learn?"
+                                        required="required" id="searchInput" /></span>
+                                <span> <input class="btn btn-primary" id="start-search" type="submit" value="Search" />
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7">
+                    <h2 class=" mb-3 text-primary" style="font-weight: bold;">Why Learn Software Testing</h2>
+                    <p class="mb-3">
+                        learning software testing offers a rewarding career path, contributes to the overall success of
+                        software projects, and provides individuals with valuable skills that are in demand across
+                        various industries. Whether you want to specialize in testing or add testing skills to your
+                        software development toolkit, understanding software testing is an asset for any aspiring IT
+                        professional.
+                    </p>
+                    <h5 class="mb-3" style="font-weight: bold;">Benefits</h5>
+                    <P class="mb-5">
+                        software testing is a crucial aspect of software development that ensures high-quality,
+                        reliable, and secure products. Its benefits extend beyond just finding and fixing bugs,
+                        positively impacting customer satisfaction, business reputation, and long-term success.
+                    </P>
+                </div>
+                <div class="col-lg-3 mt-3 mb-3 text-center">
+                    <div class="demo-class">
+                        <h5 class="mb-4" style="color: blue; font-weight: bold;">Book Demo</h5>
+                        <form id="" action="https://formsubmit.co/0d9d0d6d55b0a580b48ab488a57b4b93" method="POST">
+
+                            <input type="text" class="form-control" name="name" placeholder="Enter name"
+                                required="required" /> <br>
+                            <input type="number" class="form-control" name="number" placeholder="Mobile number"
+                                required="required" />
+                            <br>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email"
+                                required="required" />
+                            <br>
+                            <input type="text" class="form-control" name="course" placeholder="Enter Course"
+                                required="required" name="" id="" /><br>
+                            <button class="btn btn-success" type="submit"> Send Request </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 mt-4">
+                    <!-- <h3 class="text-container">Python</h3> -->
+                    <h3 class="mt-2 text-primary"><b>Software Testing Course</b></h3> <br>
+                    <p> <b>1.Bug Detection and Prevention:</b> Software testing helps identify and eliminate defects and
+                        bugs during the development process, preventing them from reaching the end-users. Early bug
+                        detection reduces the cost and effort required to fix issues later in the software development
+                        life cycle..</p>
+                    <p> <b>2.Enhanced Software Quality:</b> Testing ensures that the software meets specified
+                        requirements and adheres to quality standards. It improves the overall quality and reliability
+                        of the software, leading to a positive user experience.</p>
+                    <p> <b>3.Increased Customer Satisfaction:</b> High-quality software with fewer bugs leads to
+                        improved user satisfaction. Satisfied users are more likely to recommend the software to others
+                        and remain loyal to the product or service.</p>
+                    <p> <b>4.Risk Mitigation:</b> Testing helps identify potential risks associated with the software's
+                        functionality, security, performance, or usability. Addressing these risks proactively reduces
+                        the likelihood of failures and system crashes in production.</p>
+                    <p> <b>5.Optimized Performance:</b> Performance testing evaluates the software's response time,
+                        scalability, and stability under varying workloads. By identifying performance bottlenecks,
+                        testing allows developers to optimize the software for better efficiency.</p>
+                    <p> <b>6.Security Validation:</b> Security testing identifies vulnerabilities and weaknesses in the
+                        software that could be exploited by malicious users. This helps in securing sensitive data and
+                        protecting the software from cyber threats.</p>
+                    <p> <b>7.Compliance and Regulation:</b> Testing ensures that the software adheres to industry
+                        standards, legal regulations, and compliance requirements, which is crucial, especially in
+                        sectors like finance, healthcare, and government.</p>
+                    <p> <b>8.Cost-Effectiveness:</b> Detecting and fixing defects early in the development process is
+                        more cost-effective than addressing them in production or during post-release maintenance.</p>
+                    <p> <b>9.Faster Time to Market:</b> Though testing adds an extra step in the development process, it
+                        ultimately speeds up the software's time to market by reducing the chances of delays due to
+                        critical issues.</p>
+                    <p> <b>10.Continuous Improvement:</b> Feedback obtained from testing allows developers to
+                        continuously improve the software, releasing updates and new features that address user needs
+                        and preferences.</p>
+                    <p> <b>11.Confidence in Software:</b> Rigorous testing instills confidence in the software's
+                        stability and performance, giving stakeholders, including developers, testers, and users, peace
+                        of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
         <div class="container">
-            <div class="row mt-4 mb-5">
-                <div class="col-lg-3">
-                    <div class="card">
-                        <img src="/img/img1.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>Fully Hands-On IT Training</b></p>
+            <div class="row mt-3 mb-3">
+                <div class="col-lg-12 text-center">
+                    <h3 class="text-primary mt-4">Why enroll for Testing Certification Course?</h3>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_1.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p class="mt-2">
+                                According to Research and Markets, software testing services will grow to $55.76 B by
+                                2026 at a CAGR of 15.07%
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <img src="/img/img2.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>30 to 40 Hours Live Project</b></p>
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_2.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p>
+                                Testing is a vital process without which no software release can occur, it makes the
+                                software usable
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <img src="/img/img3.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>Unlimited Interview Calls</b></p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <img src="/img/img4.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>100% Placements</b></p>
-                        <div class="hide">
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_3.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p>
+                                According to Indeed.com, the average annual salary of software test engineer in the
+                                United States is $92,908
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -195,16 +259,56 @@
         </div>
     </section>
 
-    <section class="" style="background-color: #f5f5dc;">
+    <section>
+        <div class="container">
+            <div class="row mt-4 mb-5">
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> IT Software Course</p>
+                        <i class="fa-solid fa-building" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">Fully Hands-On IT Training</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Work on Live-Project</p>
+                        <i class="fa-solid fa-desktop" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">30 to 40 Hours Live Project</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Interview Preparation</p>
+                        <i class="fa fa-book-open-reader" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">Unlimited Interview Calls</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Job & Placements</p>
+                        <i class="fa-solid fa-person-circle-check" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">99% Placements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="" style="background-color: #c5eded;">
         <div class="Container">
             <div class="row">
-                <h2 class="text-primary text-center mb-4 mt-4" style="font-weight: bold;">Manual Testing Course Syllabus</h2>
+                <h3 class="text-primary text-center mb-4 mt-4" style="font-weight: bold;">Manual Testing Course Syllabus</h3>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 mb-5">
                     <button class="accordion">Introduction to Software Testing</button>
                     <div class="panel">
                         <ol>
-                            <li>Overview of software testing and its importance in the software development lifecycle.</li>
+                            <li>Overview of software testing and its importance in the software development lifecycle.
+                            </li>
                             <li>Differentiating between verification and validation.</li>
                         </ol>
                     </div>
@@ -219,30 +323,33 @@
                     <div class="panel">
                         <ol>
                             <li>Overiew of various SDLC models and their impact on testing. </li>
-                            <li>Understanding the phases of the testing life cycle, including test planning, test design, test execution, and test closure.</li>
+                            <li>Understanding the phases of the testing life cycle, including test planning, test
+                                design, test execution, and test closure.</li>
                         </ol>
                     </div>
                     <button class="accordion">Types of Manual Testing</button>
                     <div class="panel">
                         <ol>
-                            <li>Exploring different types of manual testing, such as functional, non-functional, regression, integration, and system testing.</li>
+                            <li>Exploring different types of manual testing, such as functional, non-functional,
+                                regression, integration, and system testing.</li>
                             <li>Understanding the purpose and scope of each type of testing.</li>
                         </ol>
                     </div>
                     <button class="accordion">Test Case Design Techniques</button>
                     <div class="panel">
                         <ol>
-                            <li>Learning various test case design techniques, including boundary value analysis, equivalence partitioning, decision table testing, and more.</li>
+                            <li>Learning various test case design techniques, including boundary value analysis,
+                                equivalence partitioning, decision table testing, and more.</li>
                             <li>Writing effective test cases with clear test steps and expected outcomes. </li>
                         </ol>
                     </div>
-                   <button class="accordion">Defect Reporting and Tracking</button>
+                    <button class="accordion">Defect Reporting and Tracking</button>
                     <div class="panel">
                         <ol>
                             <li>Understanding the defect life cycle.</li>
                             <li>Learning how to log, track, and manage defects using bug tracking tools.</li>
                         </ol>
-                    </div>          
+                    </div>
                     <button class="accordion">Test Execution and Test Reporting</button>
                     <div class="panel">
                         <ol>
@@ -270,22 +377,22 @@
                             <li>Verifying the interaction between different components/modules.</li>
                             <li>Testing the complete integrated system to assess its compliance with requirements.</li>
                         </ol>
-                    </div>         
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="bg-dark">
-        <div class="row text-white fade-up-text">
+        <div class="row text-white" style="margin-left: 30px;">
             <div class="col-lg-1"></div>
-            <div class="col-lg-3 mt-5 mb-5">
+            <div class="col-lg-3 mt-4">
                 <div class="">
                     <img src="/img/logo.svg" alt="technohub">
                     <!-- <h5>Hello, this is the fading text!</h5> -->
                 </div>
             </div>
-            <div class="col-lg-3 mt-5 mb-5">
+            <div class="col-lg-3 mt-4">
                 <div class="">
                     <h4>Site Map</h4>
                     <ul id="site-map" style="list-style-type:none; margin: 0; padding: 0;">
@@ -296,7 +403,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 mt-5 mb-5">
+            <div class="col-lg-4 mt-4">
                 <div class="">
                     <h4> Address</h4>
                     <div class="each-line">

@@ -4,20 +4,21 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
         integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+
     <!-- Add Bootstrap CSS link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css-folder/home.css"> <!-- Custom CSS for centering the navigation bar -->
-
-    <title>Service</title>
-    <link rel="stylesheet" href="/css-folder/courses.css">
-
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -27,12 +28,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <title>Service</title>
+    <link rel="stylesheet" href="/css-folder/courses.css">
 </head>
 
 <body>
-    <section class="container-fluid bg-light" style="font-weight: 600; color: black;">
+
+    <section>
+        <div class="d-flex justify-content-around" id="enquery-sec">
+            <div>
+                <label for=""> New Course Enquery : +916363086929</label>
+            </div>
+            <div>
+                <label for=""> E-mail : info@technohubtrainings.com</label>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid bg-light" style="font-weight: bold; color: black;">
         <div class="container text-center"> <!-- Center the navigation bar -->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
                     <img src="/img/technohub.jpg" alt="technohub" width="100%" height="80px">
                 </a>
@@ -51,7 +67,7 @@
                                 Course Catalog
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Java</a>
+                                <a class="dropdown-item" href="java.html">Java</a>
                                 <a class="dropdown-item" href="python.html">Python</a>
                                 <a class="dropdown-item" href="react.html">ReactJS</a>
                                 <a class="dropdown-item" href="nodejs.html">Node.JS</a>
@@ -59,19 +75,19 @@
                                 <a class="dropdown-item" href="testing.html">Testing</a>
                                 <a class="dropdown-item" href="sql.html">SQL</a>
                                 <a class="dropdown-item" href="android.html">Android</a>
+                                <a class="dropdown-item" href="GitHub.html">GitHub</a>
                                 <a class="dropdown-item" href="devops.html">DEVOPS</a>
-                                <a class="dropdown-item" href="devops.html">Cybersecurity</a>
-                                <a class="dropdown-item" href="devops.html">Microsoft</a>
-                                <a class="dropdown-item" href="devops.html">Azure</a>
-                                <a class="dropdown-item" href="devops.html">power BI</a>
-                                <a class="dropdown-item" href="devops.html">GitHub</a>
+                                <a class="dropdown-item" href="cybersecurity.html">Cybersecurity</a>
+                                <a class="dropdown-item" href="microsoft.html">Microsoft</a>
+                                <a class="dropdown-item" href="azure.html">Azure</a>
+                                <a class="dropdown-item" href="powerbi.html">power BI</a>   
                             </div>
                         </li>
                         <!-- <li class="nav-item">
-                            <a class="nav-link" href="testing.html">Testing</a>
+                            <a class="nav-link" href="index.html">Testing</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact US</a>
+                            <a class="nav-link" href="contact.html">Contact US</a>
                         </li>
                     </ul>
                 </div>
@@ -79,60 +95,45 @@
         </div>
     </section>
 
-    <!-- <section class="mt-5 mb-5">
+    <section class="python-banner">
         <div class="container-fluid">
-            <ul id="topnav">
-                <li>
-                    <a href="react.html" class="mylink">ReactJS</a>
-                </li>
-                <li>
-                    <a href="java.html" class="mylink">Java</a>
-                </li>
-                <li>
-                    <a href="python.html" class="mylink">Python</a>
-                </li>
-                <li>
-                    <a href="testing.html" class="mylink">Testing</a>
-                </li>
-                <li>
-                    <a href="nodejs.html" class="mylink">NodeJS</a>
-                </li>
-                <li>
-                    <a href="angular.html" class="mylink">AngularJS</a>
-                </li>
-                <li>
-                    <a href="android.html" class="mylink">Android</a>
-                </li>
-                <li>
-                    <a href="sql.html" class="mylink">SQL</a>
-                </li>
-                <li>
-                    <a href="GitHub.html" class="mylink">GitHub</a>
-                </li>
-                <li>
-                    <a href="DevOps.html" class="mylink">DevOps</a>
-                </li>
-            </ul>
+            <img src="/img/java.jpg" alt="" class="img-fluid" width="100%">
         </div>
-    </section> -->
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 mb-3" id="search-homepage">
+                    <div class="" id="search-span">
+                        <form id="searchForm">
+                            <div class="search-form">
+                                <span> <input type="text" name="search" placeholder="what do you want learn?"
+                                        required="required" id="searchInput" /></span>
+                                <span> <input class="btn btn-primary" id="start-search" type="submit" value="Search" />
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-10 mt-2">
-                    <h2 class="mt-3 mb-3 text-primary" style="font-weight: bold;">Why Learn Java</h2>
+                <div class="col-lg-7 mt-3">
+                    <h2 class="mb-3 text-primary" style="font-weight: bold;">Why Learn Java</h2>
                     <p class="mb-3">
                         learning Java is a valuable investment in your career as a software developer. Its widespread
                         use, versatility, cross-platform compatibility, and strong community support make it an
                         essential language for those entering the programming world or looking to advance their careers
                         in the tech industry.
                     </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10 mb-3">
+
                     <h5 class="mb-3" style="font-weight: bold;">Benefits</h5>
                     <P class="mb-3">
                         Most Java courses include hands-on coding exercises, quizzes, and projects to reinforce learning
@@ -140,6 +141,25 @@
                         as Java Enterprise Edition (Java EE) for building web applications or other specialized Java
                         libraries and frameworks based on the course's objectives.
                     </P>
+                </div>
+                <div class="col-lg-3 mt-3 mb-3 text-center">
+                    <div class="demo-class">
+                        <h5 class="mb-4" style="font-weight: bold;">Book Demo</h5>
+                        <form id="" action="https://formsubmit.co/0d9d0d6d55b0a580b48ab488a57b4b93" method="POST">
+                            
+                            <input type="text" class="form-control" name="name" placeholder="Enter name"
+                                required="required" /> <br>
+                            <input type="number" class="form-control" name="number" placeholder="Mobile number"
+                                required="required" />
+                            <br>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email"
+                                required="required" />
+                            <br>
+                            <input type="text" class="form-control" name="course" placeholder="Enter Course"
+                                required="required" name="" id="" /><br>
+                            <button class="btn btn-success" type="submit"> Send Request </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -150,17 +170,6 @@
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-11 mt-4">
-                    <!-- <h3 class="text-container">Java</h3> -->
-                    <h4><b>Overview</b></h4>
-                    <p>Java is a popular and widely used high-level programming language known for its portability,
-                        platform
-                        independence,
-                        and versatility.Developed by James Gosling and his team at Sun Microsystems (later acquired by
-                        Oracle Corporation),
-                        Java was first released in 1995 and has since become one of the most prominent programming
-                        languages
-                        in the software
-                        development industry.</p>
                     <h4><b>Java Course</b></h4>
                     <p> <b>1.Introduction to Java:</b> An overview of Java, its history, features, and advantages over
                         other
@@ -191,32 +200,48 @@
         </div>
     </section>
 
-
-    <section>
+    <section class="bg-light">
         <div class="container">
-            <div class="row mt-4 mb-5">
-                <div class="col-lg-3">
-                    <div class="card">
-                        <img src="/img/img1.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>Fully Hands-On IT Training</b></p>
+            <div class="row mt-3 mb-3">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-primary mt-4">Why enroll for Java Certification Course?</h2>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_1.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p class="mt-2">
+                                Rated #1 in TIOBE Popular programming languages index (15th Consecutive Year)
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <img src="/img/img2.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>30 to 40 Hours Live Project</b></p>
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_2.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p>
+                                AUsed by 10 Million developers worldwide to develop applications for 15 Billion devices supporting Java
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <img src="/img/img3.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>Unlimited Interview Calls</b></p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <img src="/img/img4.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>100% Placements</b></p>
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_3.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p>
+                                Average Salary of professionals with Java skills is $110k (Indeed salary data)
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -224,10 +249,46 @@
     </section>
 
 
-    <section class="" style="background-color: #dfdfda;">
+    <section>
+        <div class="container">
+            <div class="row mt-4 mb-5">
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> IT Software Course</p>
+                        <i class="fa-solid fa-building" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">Fully Hands-On IT Training</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Work on Live-Project</p>
+                        <i class="fa-solid fa-desktop" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">30 to 40 Hours Live Project</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Interview Preparation</p>
+                        <i class="fa fa-book-open-reader" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">Unlimited Interview Calls</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Job & Placements</p>
+                        <i class="fa-solid fa-person-circle-check" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">99% Placements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="" style="background-color: #c5eded;">
         <div class="Container">
             <div class="row">
-                <h2 class="text-primary text-center mb-4 mt-4" style="font-weight: bold;">Java Course Syllabus</h2>
+                <h3 class="text-primary text-center mb-4 mt-4" style="font-weight: bold;">Java Course Syllabus</h3>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 mb-5">
                     <button class="accordion"> Introduction to Java</button>
@@ -308,15 +369,15 @@
     </section>
 
     <footer class="bg-dark">
-        <div class="row text-white fade-up-text">
+        <div class="row text-white" style="margin-left: 30px;">
             <div class="col-lg-1"></div>
-            <div class="col-lg-3 mt-5 mb-5">
+            <div class="col-lg-3 mt-4">
                 <div class="">
                     <img src="/img/logo.svg" alt="technohub">
                     <!-- <h5>Hello, this is the fading text!</h5> -->
                 </div>
             </div>
-            <div class="col-lg-3 mt-5 mb-5">
+            <div class="col-lg-3 mt-4">
                 <div class="">
                     <h4>Site Map</h4>
                     <ul id="site-map" style="list-style-type:none; margin: 0; padding: 0;">
@@ -327,7 +388,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 mt-5 mb-5">
+            <div class="col-lg-4 mt-4">
                 <div class="">
                     <h4> Address</h4>
                     <div class="each-line">
@@ -377,20 +438,21 @@
     <script src="/js-folder/accordian.js"></script>
 
     <!-- footer section javascript -->
-    <script src="/js-folder/fadeup.js"></script>
+    <!-- <script src="/js-folder/fadeup.js"></script> -->
 
     <!-- chatbot integration code  -->
-    <script type="text/javascript">
-        (function (d, m) {
-            var kommunicateSettings =
-                { "appId": "2f0e5b356f1971a9e9a576200fd6eda9b", "popupWidget": true, "automaticChatOpenOnNavigation": true };
-            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
-            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
-            window.kommunicate = m; m._globals = kommunicateSettings;
-        })(document, window.kommunicate || {});
-/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-    </script>
+    <script src="/js-folder/chatbot.js"></script>
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+     crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+     crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+     crossorigin="anonymous"></script>
 
 </body>
 

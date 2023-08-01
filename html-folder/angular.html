@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css-folder/home.css"> <!-- Custom CSS for centering the navigation bar -->
 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -29,7 +33,19 @@
 </head>
 
 <body>
-    <section class="container-fluid bg-light">
+
+    <section>
+        <div class="d-flex justify-content-around" id="enquery-sec">
+            <div>
+                <label for=""> New Course Enquery : +916363086929</label>
+            </div>
+            <div>
+                <label for=""> E-mail : info@technohubtrainings.com</label>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid bg-light" style="font-weight: bold; color: black;">
         <div class="container text-center"> <!-- Center the navigation bar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
@@ -58,12 +74,12 @@
                                 <a class="dropdown-item" href="testing.html">Testing</a>
                                 <a class="dropdown-item" href="sql.html">SQL</a>
                                 <a class="dropdown-item" href="android.html">Android</a>
+                                <a class="dropdown-item" href="GitHub.html">GitHub</a>
                                 <a class="dropdown-item" href="devops.html">DEVOPS</a>
-                                <a class="dropdown-item" href="devops.html">Cybersecurity</a>
-                                <a class="dropdown-item" href="devops.html">Microsoft</a>
-                                <a class="dropdown-item" href="devops.html">Azure</a>
-                                <a class="dropdown-item" href="devops.html">power BI</a>
-                                <a class="dropdown-item" href="devops.html">GitHub</a>
+                                <a class="dropdown-item" href="cybersecurity.html">Cybersecurity</a>
+                                <a class="dropdown-item" href="microsoft.html">Microsoft</a>
+                                <a class="dropdown-item" href="azure.html">Azure</a>
+                                <a class="dropdown-item" href="powerbi.html">power BI</a>   
                             </div>
                         </li>
                         <!-- <li class="nav-item">
@@ -78,161 +94,200 @@
         </div>
     </section>
 
-    <!-- <section class="mt-5 mb-5">
+    <section class="python-banner">
         <div class="container-fluid">
-            <ul id="topnav">
-                <li>
-                    <a href="react.html" class="mylink">ReactJS</a>
-                </li>
-                <li>
-                    <a href="java.html" class="mylink">Java</a>
-                </li>
-                <li>
-                    <a href="python.html" class="mylink">Python</a>
-                </li>
-                <li>
-                    <a href="testing.html" class="mylink">Testing</a>
-                </li>
-                <li>
-                    <a href="nodejs.html" class="mylink">NodeJS</a>
-                </li>
-                <li>
-                    <a href="angular.html" class="mylink">AngularJS</a>
-                </li>
-                <li>
-                    <a href="android.html" class="mylink">Android</a>
-                </li>
-                <li>
-                    <a href="sql.html" class="mylink">SQL</a>
-                </li>
-                <li>
-                    <a href="GitHub.html" class="mylink">GitHub</a>
-                </li>
-                <li>
-                    <a href="DevOps.html" class="mylink">DevOps</a>
-                </li>
-            </ul>
+            <img src="/img/angularjs.jpg" alt="" class="img-fluid" width="100%">
         </div>
-    </section> -->
+    </section>
 
     <section>
-        <div class="container-fluid">
+        <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-10 mt-2">
-                    <h2 class="mt-3 mb-3 text-primary" style="font-weight: bold;">Why Learn AngularJS</h2>
-                    <p class="mb-3">
-                        AngularJS is a powerful framework that simplifies web application development, enhances productivity, and improves the overall user experience. However, it's essential to note that while AngularJS has been popular for many years, the web development landscape has evolved, 
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10 mb-3">
-                    <h5 class="mb-3" style="font-weight: bold;">Benefits</h5>
-                    <P class="mb-3">
-                        AngularJS was revolutionary and widely used in the past, the Angular ecosystem has since evolved, and Angular (also known as Angular 2+), a complete rewrite of AngularJS, offers significant improvements and better performance. Developers should consider the specific requirements of their projects and may explore both AngularJS and newer Angular versions to make an informed choice.
-                    </P>
+                <div class="col-lg-10 mb-3" id="search-homepage">
+                    <div class="" id="search-span">
+                        <form id="searchForm">
+                            <div class="search-form">
+                                <span> <input type="text" name="search" placeholder="what do you want learn?"
+                                        required="required" id="searchInput" /></span>
+                                <span> <input class="btn btn-primary" id="start-search" type="submit" value="Search" />
+                                </span>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10">
-                <h3 class="text-container">AngularJS</h3>
-                <h4><b>Overview</b></h4>
-                <p>AngularJS is an open-source JavaScript framework developed by Google for building dynamic and interactive web applications. It was one of the first major client-side frameworks and played a significant role in popularizing the concept of Single Page Applications (SPAs). Though it has been largely succeeded by Angular (also known as Angular 2+), AngularJS remains relevant in some legacy applications.</p>
-                <h4><b>AngularJS Course</b></h4>
-                <p> <b>1.Introduction to Angular:</b>An overview of Angular, its history, features, and advantages over other front-end frameworks.</p>  
-                <p> <b>2.TypeScript Fundamentals:</b> A review of basic TypeScript concepts such as variables, data types, functions, and control flow.</p>
-                <p> <b>3.Components:</b> Learning how to create and use components in Angular, including component lifecycle methods and data binding.</p>
-                <p> <b>4.Directives:</b> Understanding how to use directives in Angular, including structural and attribute directives.</p>
-                <p> <b>5.Services and Dependency Injection:</b> Learning how to use services and dependency injection in Angular, including creating and injecting services.</p>
-                <p> <b>6.Routing:</b> Understanding how to implement client-side routing in Angular, using tools like Angular Router.</p>
-                <p> <b>7.Forms:</b> Learning how to create and handle forms in Angular, including form validation and submission.</p>
-                <p> <b>8.Observables and Rx JS :</b> Understanding how to use observables and the RxJS library to handle asynchronous data streams inAngular.</p>
-                <p> <b>9.HTTP and Angular Http Client:</b> Learning how to use Angular HttpClient to make HTTP requests and handle responses.</p>
-                <p> <b>10.Angular CLI and Deployment:</b> Understanding how to use the Angular CLI to generate and build Angular projects, as well as how to deploy Angular applications to production.</p>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7 mt-3">
+                    <h2 class="mb-3 text-primary" style="font-weight: bold;">Why Learn AngularJS</h2>
+                    <p class="mb-3">
+                        AngularJS is a powerful framework that simplifies web application development, enhances
+                        productivity, and improves the overall user experience. However, it's essential to note that
+                        while AngularJS has been popular for many years, the web development landscape has evolved,
+                    </p>
+                    <h5 class="mb-3" style="font-weight: bold;">Benefits</h5>
+                    <P class="mb-3">
+                        AngularJS was revolutionary and widely used in the past, the Angular ecosystem has since
+                        evolved, and Angular (also known as Angular 2+), a complete rewrite of AngularJS, offers
+                        significant improvements and better performance. Developers should consider the specific
+                        requirements of their projects and may explore both AngularJS and newer Angular versions to make
+                        an informed choice.
+                    </P>
+                </div>
+                <div class="col-lg-3 mt-3 mb-3 text-center">
+                    <div class="demo-class">
+                        <h5 class="mb-4" style="font-weight: bold;">Book Demo</h5>
+                        <form id="" action="https://formsubmit.co/0d9d0d6d55b0a580b48ab488a57b4b93" method="POST">
+
+                            <input type="text" class="form-control" name="name" placeholder="Enter name"
+                                required="required" /> <br>
+                            <input type="number" class="form-control" name="number" placeholder="Mobile number"
+                                required="required" />
+                            <br>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email"
+                                required="required" />
+                            <br>
+                            <input type="text" class="form-control" name="course" placeholder="Enter Course"
+                                required="required" name="" id="" /><br>
+                            <button class="btn btn-success" type="submit"> Send Request </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-         
+    </section>
 
-    </div>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <h4><b>AngularJS Course</b></h4>
+                    <p> <b>1.Introduction to Angular:</b>An overview of Angular, its history, features, and advantages
+                        over other front-end frameworks.</p>
+                    <p> <b>2.TypeScript Fundamentals:</b> A review of basic TypeScript concepts such as variables, data
+                        types, functions, and control flow.</p>
+                    <p> <b>3.Components:</b> Learning how to create and use components in Angular, including component
+                        lifecycle methods and data binding.</p>
+                    <p> <b>4.Directives:</b> Understanding how to use directives in Angular, including structural and
+                        attribute directives.</p>
+                    <p> <b>5.Services and Dependency Injection:</b> Learning how to use services and dependency
+                        injection in Angular, including creating and injecting services.</p>
+                    <p> <b>6.Routing:</b> Understanding how to implement client-side routing in Angular, using tools
+                        like Angular Router.</p>
+                    <p> <b>7.Forms:</b> Learning how to create and handle forms in Angular, including form validation
+                        and submission.</p>
+                    <p> <b>8.Observables and Rx JS :</b> Understanding how to use observables and the RxJS library to
+                        handle asynchronous data streams inAngular.</p>
+                    <p> <b>9.HTTP and Angular Http Client:</b> Learning how to use Angular HttpClient to make HTTP
+                        requests and handle responses.</p>
+                    <p> <b>10.Angular CLI and Deployment:</b> Understanding how to use the Angular CLI to generate and
+                        build Angular projects, as well as how to deploy Angular applications to production.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="row mt-3 mb-3">
+                <div class="col-lg-12 text-center">
+                    <h3 class="text-primary mt-4">Why enroll for Java Certification Course?</h3>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_1.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p class="mt-2">
+                                YouTube, Google, Nike, Samsung, Microsoft, BMW and many Fortune 500 companies are using
+                                Angular to deliver an engaging user experience
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_2.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p>
+                                From prototype through global deployment, Angular delivers the productivity and scalable
+                                infra that supports Google's largest applications
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_3.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p>
+                                The average salary for "Angular developer" ranges from $103,378 per year for entry level
+                                to $132,138 per year for Senior Web Developer- Indeed.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section>
         <div class="container">
             <div class="row mt-4 mb-5">
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-2">
                     <div class="card">
-                        <img src="/img/img1.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>Fully Hands-On IT Training</b></p>
-                        <!-- <div class="hide">
-                            <div class="card-body">
-                                Get 1-on-1 session with our expert
-                                trainers at a date & time of your convenience
-                            </div>
-                        </div> -->
+                        <p class="it-software"> IT Software Course</p>
+                        <i class="fa-solid fa-building" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">Fully Hands-On IT Training</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-2">
                     <div class="card">
-                        <img src="/img/img2.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>30 to 40 Hours Live Project</b></p>
-                        <div class="hide">
-                            <!-- <div class="card-body">
-                                Start your session at a date of your
-                                choice-weekend & evening slots included,
-                                and reschedule if necessary.
-                            </div> -->
-                        </div>
+                        <p class="it-software"> Work on Live-Project</p>
+                        <i class="fa-solid fa-desktop" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">30 to 40 Hours Live Project</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-2">
                     <div class="card">
-                        <img src="/img/img3.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>Unlimited Interview Calls</b></p>
-                        <div class="hide">
-                            <!-- <div class="card-body">
-                                Training never been so
-                                convenient-attend
-                                training sessions 4-hour
-                                long for easy learning.
-                            </div> -->
-                        </div>
+                        <p class="it-software"> Interview Preparation</p>
+                        <i class="fa fa-book-open-reader" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">Unlimited Interview Calls</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-2">
                     <div class="card">
-                        <img src="/img/img4.png" alt="" class="card-img-top">
-                        <p class="text-center m-2"><b>100% Placements</b></p>
-                        <div class="hide">
-                            <!-- <div class="card-body">
-                                Attend trainings at
-                                some of the most loved
-                                cities such as Dubai,
-                                London, Delhi(India),
-                                Goa, Singapore,
-                                New York and Sydney.
-                            </div> -->
-                        </div>
+                        <p class="it-software"> Job & Placements</p>
+                        <i class="fa-solid fa-person-circle-check" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">99% Placements</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="" style="background-color: #f5f5dc;">
+    <section class="" style="background-color: #c5eded;">
         <div class="Container">
-            <!-- <div class="row mb-3">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-5">
-                  <h2 class="text-primary mt-4" style="font-weight: bold;"> AWS Course Syllabus</h2>
-                </div>
-              </div> -->
             <div class="row">
-                <h2 class="text-primary text-center mb-4 mt-4" style="font-weight: bold;">AngularJS Course Syllabus</h2>
+                <h3 class="text-primary text-center mb-4 mt-4" style="font-weight: bold;">AngularJS Course Syllabus</h3>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 mb-5">
                     <button class="accordion"> Introduction to AngularJS</button>
@@ -303,24 +358,24 @@
                     <div class="panel">
                         <ol>
                             <li>Making HTTP requests and handling responses using AngularJS's $http service</li>
-                            <li>Working with RESTful APIs to fetch and update data from a server  </li>
+                            <li>Working with RESTful APIs to fetch and update data from a server </li>
                         </ol>
-                    </div>         
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="bg-dark">
-        <div class="row text-white fade-up-text">
+        <div class="row text-white" style="margin-left: 30px;">
             <div class="col-lg-1"></div>
-            <div class="col-lg-3 mt-5 mb-5">
+            <div class="col-lg-3 mt-4">
                 <div class="">
                     <img src="/img/logo.svg" alt="technohub">
                     <!-- <h5>Hello, this is the fading text!</h5> -->
                 </div>
             </div>
-            <div class="col-lg-3 mt-5 mb-5">
+            <div class="col-lg-3 mt-4">
                 <div class="">
                     <h4>Site Map</h4>
                     <ul id="site-map" style="list-style-type:none; margin: 0; padding: 0;">
@@ -331,7 +386,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 mt-5 mb-5">
+            <div class="col-lg-4 mt-4">
                 <div class="">
                     <h4> Address</h4>
                     <div class="each-line">
@@ -364,55 +419,29 @@
         </div>
     </footer>
 
-    
-    <!-- <div class="container mb-5 mt-5" id="contact-form">
-        <form>
-            <h4 class="mt-4 mb-5" style="text-align: center;">Request More Information</h4>
-            <div class="row">
-                <div class="col-lg-6" id="contact-input">
-                    <input type="text" class="form-control" name="name" id="p1" placeholder="Name" />
-                    <input type="text" class="form-control" name="phone" id="p2" placeholder="Phone" />
-                    <input type="text" class="form-control" name="city" id="p3" placeholder="City (optional)" />
-                    <textarea name="textarea" class="form-control"
-                        placeholder="Enter Query\ Your Requirement :"></textarea>
-                </div>
-                <div class="col-lg-6" id="contact-input">
-                    <input type="email" class="form-control" name="email" id="p4" placeholder="Email" />
-                    <input type="text" class="form-control" name="contry" id="p5" placeholder="India" />
-                    <input type="checkbox" /> <label class="request"> Request a call back ?</label> <br>
-                    <div class="captcha">
-                        <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-                            data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
-                            data-error-callback="onRecaptchaError">
-                        </div>
-                    </div>
-                </div>
-                <button id="submit-btn" class="btn btn-danger"
-                    onclick="sendEmail(); reset(); return false">submit</button>
-            </div>
-        </form>
-    </div> -->
-    
 
 
     <!-- accordian section javascript -->
     <script src="/js-folder/accordian.js"></script>
 
-     <!-- footer section javascript -->
-     <script src="/js-folder/fadeup.js"></script>
+    <!-- footer section javascript -->
+    <script src="/js-folder/fadeup.js"></script>
+
+    <!-- dropdown section javascript -->
+    <script src="/js-folder/dropdown.js"></script>
 
     <!-- chatbot integration code  -->
-  <script type="text/javascript">
-    (function (d, m) {
-      var kommunicateSettings =
-        { "appId": "2f0e5b356f1971a9e9a576200fd6eda9b", "popupWidget": true, "automaticChatOpenOnNavigation": true };
-      var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
-      s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-      var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
-      window.kommunicate = m; m._globals = kommunicateSettings;
-    })(document, window.kommunicate || {});
+    <script type="text/javascript">
+        (function (d, m) {
+            var kommunicateSettings =
+                { "appId": "2f0e5b356f1971a9e9a576200fd6eda9b", "popupWidget": true, "automaticChatOpenOnNavigation": true };
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
 /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-  </script>
+    </script>
 
 </body>
 

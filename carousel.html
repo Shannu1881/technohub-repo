@@ -1,133 +1,462 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Slider</title>
-  <link rel="stylesheet" href="styles.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
 
-    .slider-container {
-      max-width: 800px;
-      margin: 0 auto;
-      overflow: hidden;
-      position: relative;
-    }
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
 
-    .slider {
-      display: flex;
-      transition: transform 0.3s ease;
-    }
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css-folder/home.css"> <!-- Custom CSS for centering the navigation bar -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-    img {
-      width: 100%;
-      height: auto;
-    }
+    <title>Service</title>
+    <link rel="stylesheet" href="/css-folder/courses.css">
 
-    button {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-    }
-
-    .prev-btn {
-      left: 0;
-    }
-
-    .next-btn {
-      right: 0;
-    }
-  </style>
 </head>
 
 <body>
-
-  <nav class="navbar navbar-default navbar-inverse" role="navigation">
-    <div class="container-fluid" id="navfluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-             </button>
-             <a class="navbar-brand" href="./Index.html">Stadtfestlauf</a>
+  
+    <section>
+        <div class="d-flex justify-content-around" id="enquery-sec">
+            <div>
+                <label for=""> New Course Enquery : +918247023831</label>
+            </div>
+            <div>
+                <label for=""> E-mail : info@technohubtrainings.com</label>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="navigationbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="./Index.html">Startseite</a></li>
-                <li><a href="./Rueckblick.html">R&uuml;ckblick</a></li>
-                <li><a href="./Wettbewerb.html">Wettbewerb</a></li>    
-                <li><a href="./anmelden.html">Anmelden</a></li>
-                <li><a href="./sponsoren.html">Sponsoren</a></li>
-            </ul>
-       </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
- </nav>
+    </section>
 
-  <div class="slider-container">
-    <div class="slider">
-      <img src="/img/learning5.webp" alt="Image 1">
-      <img src="/img/API-security.jpeg" alt="Image 2">
-      <img src="/img/learning6.png" alt="Image 3">
-    </div>
-    <button class="prev-btn">Previous</button>
-    <button class="next-btn">Next</button>
-  </div>
-  <script src="script.js"></script>
+    <section class="container-fluid bg-light" style="font-weight: bold; color: black;">
+        <div class="container text-center"> <!-- Center the navigation bar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/technohub.jpg" alt="technohub" width="100%" height="80px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto"> <!-- mx-auto class to center the items -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Course Catalog
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="java.html">Java</a>
+                                <a class="dropdown-item" href="python.html">Python</a>
+                                <a class="dropdown-item" href="react.html">ReactJS</a>
+                                <a class="dropdown-item" href="nodejs.html">Node.JS</a>
+                                <a class="dropdown-item" href="angular.html">Angular.JS</a>
+                                <a class="dropdown-item" href="testing.html">Testing</a>
+                                <a class="dropdown-item" href="sql.html">SQL</a>
+                                <a class="dropdown-item" href="android.html">Android</a>
+                                <a class="dropdown-item" href="devops.html">DEVOPS</a>
+                                <a class="dropdown-item" href="devops.html">Cybersecurity</a>
+                                <a class="dropdown-item" href="devops.html">Microsoft</a>
+                                <a class="dropdown-item" href="devops.html">Azure</a>
+                                <a class="dropdown-item" href="devops.html">power BI</a>
+                                <a class="dropdown-item" href="devops.html">GitHub</a>
+                            </div>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="index.html">Testing</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact US</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <span> <input type="text" name="search" placeholder="what do you want learn?"
+                                    required="required" /></span>
+                            <span> <input class="btn btn-primary" id="start-search" type="submit" value="Search" />
+                            </span>
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
 
-  <script>
-    const slider = document.querySelector('.slider');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
+    <section class="python-banner">
+        <div class="container-fluid">
+            <img src="/img/python.png" alt="" class="img-fluid" width="100%">
+        </div>
+    </section>
 
-    let slideIndex = 0;
+    <section>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 " id="search-homepage">
+                    <div class="" id="search-span">
+                        <form id="searchForm">
+                            <div class="search-form">
+                                <span> <input type="text" name="search" placeholder="what do you want learn?"
+                                        required="required" id="searchInput" /></span>
+                                <span> <input class="btn btn-primary" id="start-search" type="submit" value="Search" />
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    function showSlide(index) {
-      const slides = document.querySelectorAll('.slider img');
-      if (index < 0) {
-        slideIndex = slides.length - 1;
-      } else if (index >= slides.length) {
-        slideIndex = 0;
-      }
-      slider.style.transform = `translateX(-${slideIndex * 100}%)`;
-    }
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7">
+                    <h2 class=" mb-3 text-primary" style="font-weight: bold;">Why Learn DevOps </h2>
+                    <p class="mb-3">
+                        DevOps is a transformative approach that combines cultural practices and technical tools to foster collaboration, automate processes, and deliver high-quality software faster and more efficiently. By breaking down barriers between development and operations, organizations can achieve better software outcomes and respond effectively to the demands of the modern software industry.
+                    </p>    
+                    <h5 class="mb-3" style="font-weight: bold;">Benefits</h5>
+                    <P class="mb-5">
+                        DevOps brings significant benefits, including increased efficiency, faster delivery, improved collaboration, and higher-quality software. It aligns software development and operations, enabling organizations to meet the demands of the rapidly evolving technological landscape.
+                    </P>
+                </div>
+                <div class="col-lg-3 mt-3 mb-3 text-center">
+                    <div class="demo-class">
+                        <h5 class="mb-4" style="color: blue; font-weight: bold;">Book Demo</h5>
+                        <form id="" action="https://formsubmit.co/0d9d0d6d55b0a580b48ab488a57b4b93" method="POST">
+                            
+                            <input type="text" class="form-control" name="name" placeholder="Enter name"
+                                required="required" /> <br>
+                            <input type="number" class="form-control" name="number" placeholder="Mobile number"
+                                required="required" />
+                            <br>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email"
+                                required="required" />
+                            <br>
+                            <input type="text" class="form-control" name="course" placeholder="Enter Course"
+                                required="required" name="" id="" /><br>
+                            <button class="btn btn-success" type="submit"> Send Request </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7 mb-3">
+                    <h5 class="mb-3" style="font-weight: bold;">Benefits</h5>
+                    <P class="mb-5">
+                        Python course can equip you with valuable skills that are highly relevant in today's
+                        technology-driven world. Whether you are a complete beginner or an experienced programmer,
+                        learning Python can benefit you in numerous ways and give you a competitive edge in your career.
+                    </P>
+                </div>
+            </div> -->
+        </div>
+    </section>
 
-    prevBtn.addEventListener('click', () => {
-      slideIndex--;
-      showSlide(slideIndex);
-    });
 
-    nextBtn.addEventListener('click', () => {
-      slideIndex++;
-      showSlide(slideIndex);
-    });
+    <section class="bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-11 mt-4">
+                    <!-- <h3 class="text-container">Python</h3> -->
+                    <h3 class="mt-2 text-primary"><b>DevOps Testing Course</b></h3> <br>
+                    <p> <b>1.Faster Delivery of Software:</b> DevOps emphasizes automation and continuous integration and continuous delivery (CI/CD), enabling faster and more frequent releases of software. This results in quicker delivery of new features, bug fixes, and updates to end-users.</p>
+                    <p> <b>2.Improved Collaboration:</b> DevOps fosters a collaborative culture among developers, testers, operations teams, and other stakeholders. It breaks down silos, promotes communication, and encourages shared responsibilities, leading to more effective teamwork.</p>
+                    <p> <b>3.Higher Quality Software:</b> Continuous testing and automated deployment in DevOps help identify and address defects early in the development process. This leads to higher software quality, as issues are detected and fixed before they impact end-users.</p>
+                    <p> <b>4.Enhanced Stability and Reliability:</b> DevOps practices emphasize the use of infrastructure-as-code and version control, resulting in consistent and reliable infrastructure setups. This reduces the chances of configuration-related failures and improves system stability.</p>
+                    <p> <b>5.Efficient Resource Utilization:</b> DevOps encourages the use of cloud infrastructure and scalability solutions, allowing organizations to optimize resource utilization and cost-effectively handle fluctuating workloads.</p>
+                    <p> <b>6.Reduced Lead Time and Time to Market:</b> By automating manual processes, minimizing handoffs, and optimizing workflows, DevOps reduces lead time and shortens the time it takes to bring a feature from development to production.</p>
+                    <p> <b>7.Rapid Feedback Loops:</b> Continuous monitoring and real-time feedback in DevOps allow teams to quickly identify issues and gather insights on application performance and user behavior, enabling timely improvements.</p>
+                    <p> <b>8.Increased Deployment Frequency:</b> DevOps enables frequent and small releases, reducing the risk associated with large deployments and making it easier to roll back changes if needed.</p>
+                    <p> <b>9.Business Agility:</b> DevOps enables organizations to respond more quickly to market demands and customer needs. The ability to iterate rapidly and adapt to changes improves business agility.</p>
+                    <p> <b>10.Culture of Continuous Improvement:</b> DevOps promotes a culture of continuous improvement and learning. Teams are encouraged to experiment, learn from failures, and implement improvements incrementally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    // Auto slide functionality (optional)
-    function autoSlide() {
-      slideIndex++;
-      showSlide(slideIndex);
-    }
+    <section class="bg-light">
+        <div class="container">
+            <div class="row mt-3 mb-3">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-primary mt-4">Why enroll for Python Certification Course?</h2>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-4 mb-5">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <img src="/img/box_traning_1.webp" class="mt-3" alt="box_traning_3" width="50px">
+                            <!-- <img src="/img/clients.png" alt="clipboard-check" id="clipboard"> -->
+                            <!-- <i class="fa fa-line-chart mt-3" style="font-size:36px; color:rgb(0, 132, 255);"></i> -->
+                        </div>
+                        <div class="why-enroll-second">
+                            <p class="mt-2">
+                                Python is the most preferred language for new technologies such as Data Science and
+                                Machine Learning
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <!-- <img src="/img/clients.png" alt="clipboard-check" id="clipboard"> -->
+                            <img src="/img/box_traning_2.webp" class="mt-3" alt="box_traning_3" width="50px">
+                            <!-- <i class='far fa-building mt-3' style='font-size:46px; color:rgb(0, 132, 255);'></i> -->
+                        </div>
+                        <div class="why-enroll-second">
+                            <p>
+                                A Senior Python Developer with Python Certification earns an average salary of $109,280
+                                per year, according to PayScale.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="why-enroll">
+                        <div class="mt-2 text-center">
+                            <!-- <img src="/img/clients.png" alt="clipboard-check" id="clipboard"> -->
+                            <img src="/img/box_traning_3.webp" class="mt-3" alt="box_traning_3" width="50px">
+                        </div>
+                        <div class="why-enroll-second">
+                            <p>
+                                Python is the future of AI and Machine Learning – Adrian Rosebrock, author of the book,
+                                ‘Deep Learning for Computer Vision with Python’
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    // Uncomment the line below to enable auto slide every 5 seconds
-    // setInterval(autoSlide, 5000);
+    <section>
+        <div class="container">
+            <div class="row mt-4 mb-5">
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> IT Software Course</p>
+                        <i class="fa-solid fa-building" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">Fully Hands-On IT Training</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Work on Live-Project</p>
+                        <i class="fa-solid fa-desktop" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center m-2" style="font-weight: 500;">30 to 40 Hours Live Project</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Interview Preparation</p>
+                        <i class="fa-solid fa-book-open-reader" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <!-- <i class="fa fa-building" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i> -->
+                        <p class="text-center m-2" style="font-weight: 500;">Unlimited Interview Calls</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card">
+                        <p class="it-software"> Job & Placements</p>
+                        <i class="fa-solid fa-person-circle-check" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <!-- <i class="fa fa-building" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i> -->
+                        <p class="text-center m-2" style="font-weight: 500;">99% Placements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    // Show the initial slide
-    showSlide(slideIndex);
+    <section class="" style="background-color: #c5eded;">
+        <div class="Container">
+            <div class="row">
+                <h2 class="text-primary text-center mb-4 mt-4" style="font-weight: bold;">DevOps Course Syllabus</h2>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 mb-5">
+                    <button class="accordion">Introduction to DevOps</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Understanding the DevOps culture, principles, and benefits.</li>
+                            <li>Explaining the DevOps lifecycle and its role in the software development process.</li>
+                        </ol>
+                    </div>
+                    <button class="accordion">Version Control Systems</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Learning popular version control systems like Git.</li>
+                            <li>Understanding branching and merging strategies.</li>
+                            <li>Collaborating with team members using version control tools.</li>
+                        </ol>
+                    </div>
+                    <button class="accordion">Continuous Integration (CI)</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Setting up CI pipelines for automated code integration and testing.</li>
+                            <li>Configuring build servers to automatically build and test code changes.</li>
+                            <li>Using CI tools like Jenkins, Travis CI, CircleCI, or GitLab CI/CD.</li>
+                        </ol>
+                    </div>
+                    <button class="accordion">Continuous Deployment (CD)</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Implementing continuous deployment to automate the process of deploying code to production.</li>
+                            <li>Configuring CD pipelines to deploy applications automatically.</li>
+                            <li>Rolling back changes in case of deployment failures.</li>
+                        </ol>
+                    </div>
+                    <button class="accordion">Infrastructure as Code (IaC)</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Learning about IaC concepts and benefits.</li>
+                            <li>Using tools like Terraform or AWS CloudFormation to provision and manage infrastructure.</li>
+                        </ol>
+                    </div>
+                    <button class="accordion">Configuration Management</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Using configuration management tools like Ansible, Chef, or Puppet to automate server configuration and management.</li>
+                        </ol>
+                    </div>  
+                    <button class="accordion">Monitoring and Logging</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Implementing monitoring and logging strategies for applications and infrastructure.</li>
+                            <li>Using tools like Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), etc.</li>
+                        </ol>
+                    </div>  
+                    <button class="accordion">Cloud Platforms</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Understanding cloud computing concepts and popular cloud platforms like AWS, Azure, or Google Cloud.</li>
+                            <li>Deploying applications on the cloud and utilizing cloud-based services..</li>
+                        </ol>
+                    </div>       
+                    <button class="accordion">Collaboration and Communication</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Emphasizing communication and collaboration among cross-functional teams in a DevOps environment.</li>
+                            <li>Integrating collaboration tools like Slack, Microsoft Teams, or Jira.</li>
+                        </ol>
+                    </div>
+                    <button class="accordion">Security in DevOps</button>
+                    <div class="panel">
+                        <ol>
+                            <li>Incorporating security best practices into the DevOps process.</li>
+                            <li>Learning about secure coding, vulnerability scanning, and security testing.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  </script>
+    <footer class="bg-dark">
+        <div class="row text-white">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3 mt-5 mb-5">
+                <div class="">
+                    <img src="/img/logo.svg" alt="technohub">
+                    <!-- <h5>Hello, this is the fading text!</h5> -->
+                </div>
+            </div>
+            <div class="col-lg-3 mt-5 mb-5">
+                <div class="">
+                    <h4>Site Map</h4>
+                    <ul id="site-map" style="list-style-type:none; margin: 0; padding: 0;">
+                        <li> <a href="#"> Home </a> </li>
+                        <li> <a href="#"> About us </a> </li>
+                        <li> <a href="#"> Contact us </a> </li>
+                        <li> <a href="#"> googleMap </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-5 mb-5">
+                <div class="">
+                    <h4> Address</h4>
+                    <div class="each-line">
+                        <div>
+                            <img src="/img/marker.svg" alt="marker">
+                        </div>
+                        <p>
+                            1st floor, 80 Feet Rd, opposite Canara Bank,<br> MET Layout, Ashwath Nagar, <br>Sanjaynagar,
+                            Bengaluru-94.
+                        </p>
+                    </div>
+                    <div class="each-line">
+                        <div>
+                            <img src="/img/phone.svg" alt="phone">
+                        </div>
+                        <p>
+                            9849175588
+                        </p>
+                    </div>
+                    <div class="each-line">
+                        <div>
+                            <img src="/img/mail.svg" alt="mail">
+                        </div>
+                        <p>
+                            shameer@technohubtrainings.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- navbar dropdown folder javascript -->
+    <script src="/js-folder/dropdown.js"></script>
+
+    <!-- accordian section javascript -->
+    <script src="/js-folder/accordian.js"></script>
+
+    <!-- footer section javascript -->
+    <script src="/js-folder/fadeup.js"></script>
+
+    <!-- chatbot integration code  -->
+    <script src="/js-folder/chatbot.js"></script>
+
+    <!-- search section javascript -->
+    <script src="/js-folder/search_opt.js"></script>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
 </body>
 
 </html>
