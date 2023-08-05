@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technohub</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
@@ -28,7 +29,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <title>Service</title>
     <link rel="stylesheet" href="/css-folder/courses.css">
 </head>
 
@@ -49,7 +49,7 @@
         <div class="container text-center"> <!-- Center the navigation bar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                    <img src="/img/technohub.jpg" alt="technohub" width="100%" height="80px" class="nav-logo">
+                    <img src="/img/technohub.jpg" alt="technohub" id="technohub-logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,15 +71,20 @@
                                 <a class="dropdown-item" href="react.html">ReactJS</a>
                                 <a class="dropdown-item" href="nodejs.html">Node.JS</a>
                                 <a class="dropdown-item" href="angular.html">Angular.JS</a>
-                                <a class="dropdown-item" href="testing.html">Testing</a>
+                                <a class="dropdown-item" href="testing.html">Software Testing</a>
                                 <a class="dropdown-item" href="sql.html">SQL</a>
-                                <a class="dropdown-item" href="android.html">Android</a>
+                                <a class="dropdown-item" href="android.html">Android development</a>
                                 <a class="dropdown-item" href="GitHub.html">GitHub</a>
+                                <a class="dropdown-item" href="iconicHybrid.html">Iconic Hybrid</a>
                                 <a class="dropdown-item" href="devops.html">DEVOPS</a>
                                 <a class="dropdown-item" href="cybersecurity.html">Cybersecurity</a>
-                                <a class="dropdown-item" href="microsoft.html">Microsoft</a>
-                                <a class="dropdown-item" href="azure.html">Azure</a>
-                                <a class="dropdown-item" href="powerbi.html">power BI</a>   
+                                <a class="dropdown-item" href="microsoftpower.html">Microsoft Power</a>
+                                <a class="dropdown-item" href="microsoftazure.html">Microsoft Azure</a>
+                                <a class="dropdown-item" href="microsoftdatafundamental.html">Microsoft Data
+                                    Fundamentals</a>
+                                <a class="dropdown-item" href="microsoftInfrastructure.html">Microsoft
+                                    Infrastructure</a>
+                                <a class="dropdown-item" href="powerbi.html">power BI</a>
                             </div>
                         </li>
                         <!-- <li class="nav-item">
@@ -267,7 +272,7 @@
                         <p class="it-software"> IT Software Course</p>
                         <i class="fa-solid fa-building" aria-hidden="true"
                             style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">Fully Hands-On IT Training</p>
+                        <p class="text-center mt-4" style="font-weight: 500;">Fully Hands-On IT Training</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
@@ -275,7 +280,7 @@
                         <p class="it-software"> Work on Live-Project</p>
                         <i class="fa-solid fa-desktop" aria-hidden="true"
                             style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">30 to 40 Hours Live Project</p>
+                        <p class="text-center mt-4" style="font-weight: 500;">30 to 40 Hours Live Project</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
@@ -283,7 +288,7 @@
                         <p class="it-software"> Interview Preparation</p>
                         <i class="fa fa-book-open-reader" aria-hidden="true"
                             style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">Unlimited Interview Calls</p>
+                        <p class="text-center mt-4" style="font-weight: 500;">Unlimited Interview Calls</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
@@ -291,7 +296,7 @@
                         <p class="it-software"> Job & Placements</p>
                         <i class="fa-solid fa-person-circle-check" aria-hidden="true"
                             style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">99% Placements</p>
+                        <p class="text-center mt-4" style="font-weight: 500;">99% Placements</p>
                     </div>
                 </div>
             </div>
@@ -411,7 +416,7 @@
                             <img src="/img/marker.svg" alt="marker">
                         </div>
                         <p>
-                            1st floor, 80 Feet Rd, opposite Canara Bank,<br> MET Layout, Ashwath Nagar, <br>Sanjaynagar,
+                            #131A, 1st floor, 80 Feet Rd, RMV 2nd stage,<br> MET Layout, Ashwath Nagar, <br>Sanjaynagar,
                             Bengaluru-94.
                         </p>
                     </div>
@@ -448,6 +453,9 @@
 
     <!-- chatbot integration code  -->
     <script src="/js-folder/chatbot.js"></script>
+
+    <!-- course search option javascript -->
+    <script src="/js-folder/search_opt.js"></script>
 
 </body>
 

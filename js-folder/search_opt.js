@@ -86,6 +86,47 @@ function determineDestinationPage(searchQuery2) {
         case 'github course':
             return "GitHub.html";
             break;
+        case 'cyber':
+        case 'security':
+        case 'cyber security':
+        case 'cybersecurity':
+            return "cybersecurity.html";
+            break;
+        case 'ionic':
+        case 'ionichybrid':
+        case 'hybrid development':
+        case 'ionic development':
+            return "ionicHybrid.html";
+            break;
+        case 'microsoft azure':
+        case 'microsoftazure':
+        case 'microsoft azure course':
+        case 'azure':
+            return "microsoftazure.html";
+            break;
+        case 'microsoft power':
+        case 'microsoftpower':
+        case 'microsoft power development':
+            return "microsoftpower.html";
+            break;
+        case 'microsoft infrastructure':
+        case 'infrastructure course':
+        case 'infrastructure':
+        case 'microsoft infrastructure':
+            return "microsoftInfrastructure.html";
+            break;
+        case 'microsoft fundamentals':
+        case 'fundamentals of microsoft':
+        case 'fundamentals course':
+        case 'fundamentals':
+            return "microsoftdatafundamental.html";
+            break;
+        case 'power BI':
+        case 'powerbi':
+        case 'microsoft powerbi':
+        case 'power BI course':
+            return "powerbi.html";
+            break;
         default:
             return "Not found the course";
     }

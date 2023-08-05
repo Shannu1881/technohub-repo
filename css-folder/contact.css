@@ -4,18 +4,28 @@
 }
 
 .header-baner li{
-        text-align: -webkit-match-parent;
+        text-align: center;
         float: left;
         display: block;
         font-size: 18px;
+        padding: 5px;
+}
+
+.header-baner span{
+    margin-top: 5px;
 }
 
 /* contact form */
 
 #contact-form{
-    box-shadow: 0px 0px 8px -2px;
+    box-shadow: 0px 0px 10px -2px;
     border-radius: 10px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+}
+
+#form-text label{
+   font-weight: 600;
+   font-size: 16px;
 }
 
 .location-img{

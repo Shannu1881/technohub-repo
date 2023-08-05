@@ -49,7 +49,7 @@
         <div class="container text-center"> <!-- Center the navigation bar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                    <img src="/img/technohub.jpg" alt="technohub" width="100%" height="80px">
+                    <img src="/img/technohub.jpg" alt="technohub" id="technohub-logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,15 +71,20 @@
                                 <a class="dropdown-item" href="react.html">ReactJS</a>
                                 <a class="dropdown-item" href="nodejs.html">Node.JS</a>
                                 <a class="dropdown-item" href="angular.html">Angular.JS</a>
-                                <a class="dropdown-item" href="testing.html">Testing</a>
+                                <a class="dropdown-item" href="testing.html">Software Testing</a>
                                 <a class="dropdown-item" href="sql.html">SQL</a>
-                                <a class="dropdown-item" href="android.html">Android</a>
+                                <a class="dropdown-item" href="android.html">Android development</a>
                                 <a class="dropdown-item" href="GitHub.html">GitHub</a>
+                                <a class="dropdown-item" href="iconicHybrid.html">Iconic Hybrid</a>
                                 <a class="dropdown-item" href="devops.html">DEVOPS</a>
                                 <a class="dropdown-item" href="cybersecurity.html">Cybersecurity</a>
-                                <a class="dropdown-item" href="microsoft.html">Microsoft</a>
-                                <a class="dropdown-item" href="azure.html">Azure</a>
-                                <a class="dropdown-item" href="powerbi.html">power BI</a>   
+                                <a class="dropdown-item" href="microsoftpower.html">Microsoft Power</a>
+                                <a class="dropdown-item" href="microsoftazure.html">Microsoft Azure</a>
+                                <a class="dropdown-item" href="microsoftdatafundamental.html">Microsoft Data
+                                    Fundamentals</a>
+                                <a class="dropdown-item" href="microsoftInfrastructure.html">Microsoft
+                                    Infrastructure</a>
+                                <a class="dropdown-item" href="powerbi.html">power BI</a>
                             </div>
                         </li>
                         <!-- <li class="nav-item">
@@ -253,28 +258,28 @@
                     <div class="card">
                         <p class="it-software"> IT Software Course</p>
                         <i class="fa-solid fa-building" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">Fully Hands-On IT Training</p>
+                        <p class="text-center mt-4" style="font-weight: 500;">Fully Hands-On IT Training</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
                     <div class="card">
                         <p class="it-software"> Work on Live-Project</p>
                         <i class="fa-solid fa-desktop" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">30 to 40 Hours Live Project</p>
+                        <p class="text-center mt-4" style="font-weight: 500;">30 to 40 Hours Live Project</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
                     <div class="card">
                         <p class="it-software"> Interview Preparation</p>
                         <i class="fa fa-book-open-reader" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">Unlimited Interview Calls</p>
+                        <p class="text-center mt-4" style="font-weight: 500;">Unlimited Interview Calls</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
                     <div class="card">
                         <p class="it-software"> Job & Placements</p>
                         <i class="fa-solid fa-person-circle-check" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">99% Placements</p>
+                        <p class="text-center mt-4" style="font-weight: 500;">99% Placements</p>
                     </div>
                 </div>
             </div>
@@ -384,7 +389,7 @@
                             <img src="/img/marker.svg" alt="marker">
                         </div>
                         <p>
-                            1st floor, 80 Feet Rd, opposite Canara Bank,<br> MET Layout, Ashwath Nagar, <br>Sanjaynagar,
+                            #131A, 1st floor, 80 Feet Rd, RMV 2nd stage,<br> MET Layout, Ashwath Nagar, <br>Sanjaynagar,
                             Bengaluru-94.
                         </p>
                     </div>
@@ -427,18 +432,12 @@
     <!-- footer section javascript -->
     <script src="/js-folder/fadeup.js"></script>
 
+    <!-- course search option javascript -->
+    <script src="/js-folder/search_opt.js"></script>
+
     <!-- chatbot integration code  -->
-    <script type="text/javascript">
-        (function (d, m) {
-            var kommunicateSettings =
-                { "appId": "2f0e5b356f1971a9e9a576200fd6eda9b", "popupWidget": true, "automaticChatOpenOnNavigation": true };
-            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
-            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
-            window.kommunicate = m; m._globals = kommunicateSettings;
-        })(document, window.kommunicate || {});
-/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-    </script>
+    <script src="/js-folder/chatbot.js"></script>
+    
 
 </body>
 

@@ -5,20 +5,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technohub</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
         integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
 
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
-
     <!-- Add Bootstrap CSS link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css-folder/home.css"> <!-- Custom CSS for centering the navigation bar -->
-    
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -29,14 +29,14 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <title>Service</title>
     <link rel="stylesheet" href="/css-folder/courses.css">
+
 </head>
 
 <body>
 
     <section>
-        <div class="d-flex justify-content-around" id="enquery-sec">
+        <div class="" id="enquery-sec">
             <div>
                 <label for=""> New Course Enquery : +916363086929</label>
             </div>
@@ -50,7 +50,7 @@
         <div class="container text-center"> <!-- Center the navigation bar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                    <img src="/img/technohub.jpg" alt="technohub" width="100%" height="80px">
+                    <img src="/img/technohub.jpg" alt="technohub" id="technohub-logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,15 +72,20 @@
                                 <a class="dropdown-item" href="react.html">ReactJS</a>
                                 <a class="dropdown-item" href="nodejs.html">Node.JS</a>
                                 <a class="dropdown-item" href="angular.html">Angular.JS</a>
-                                <a class="dropdown-item" href="testing.html">Testing</a>
+                                <a class="dropdown-item" href="testing.html">Software Testing</a>
                                 <a class="dropdown-item" href="sql.html">SQL</a>
-                                <a class="dropdown-item" href="android.html">Android</a>
+                                <a class="dropdown-item" href="android.html">Android development</a>
                                 <a class="dropdown-item" href="GitHub.html">GitHub</a>
+                                <a class="dropdown-item" href="iconicHybrid.html">Iconic Hybrid</a>
                                 <a class="dropdown-item" href="devops.html">DEVOPS</a>
                                 <a class="dropdown-item" href="cybersecurity.html">Cybersecurity</a>
-                                <a class="dropdown-item" href="microsoft.html">Microsoft</a>
-                                <a class="dropdown-item" href="azure.html">Azure</a>
-                                <a class="dropdown-item" href="powerbi.html">power BI</a>   
+                                <a class="dropdown-item" href="microsoftpower.html">Microsoft Power</a>
+                                <a class="dropdown-item" href="microsoftazure.html">Microsoft Azure</a>
+                                <a class="dropdown-item" href="microsoftdatafundamental.html">Microsoft Data
+                                    Fundamentals</a>
+                                <a class="dropdown-item" href="microsoftInfrastructure.html">Microsoft
+                                    Infrastructure</a>
+                                <a class="dropdown-item" href="powerbi.html">power BI</a>
                             </div>
                         </li>
                         <!-- <li class="nav-item">
@@ -146,7 +151,7 @@
                     <div class="demo-class">
                         <h5 class="mb-4" style="font-weight: bold;">Book Demo</h5>
                         <form id="" action="https://formsubmit.co/0d9d0d6d55b0a580b48ab488a57b4b93" method="POST">
-                            
+
                             <input type="text" class="form-control" name="name" placeholder="Enter name"
                                 required="required" /> <br>
                             <input type="number" class="form-control" name="number" placeholder="Mobile number"
@@ -227,7 +232,8 @@
                         </div>
                         <div class="why-enroll-second">
                             <p>
-                                AUsed by 10 Million developers worldwide to develop applications for 15 Billion devices supporting Java
+                                AUsed by 10 Million developers worldwide to develop applications for 15 Billion devices
+                                supporting Java
                             </p>
                         </div>
                     </div>
@@ -255,29 +261,33 @@
                 <div class="col-lg-3 mb-2">
                     <div class="card">
                         <p class="it-software"> IT Software Course</p>
-                        <i class="fa-solid fa-building" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">Fully Hands-On IT Training</p>
+                        <i class="fa-solid fa-building" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center mt-4" style="font-weight: 500;">Fully Hands-On IT Training</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
                     <div class="card">
                         <p class="it-software"> Work on Live-Project</p>
-                        <i class="fa-solid fa-desktop" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">30 to 40 Hours Live Project</p>
+                        <i class="fa-solid fa-desktop" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center mt-4" style="font-weight: 500;">30 to 40 Hours Live Project</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
                     <div class="card">
                         <p class="it-software"> Interview Preparation</p>
-                        <i class="fa fa-book-open-reader" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">Unlimited Interview Calls</p>
+                        <i class="fa fa-book-open-reader" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center mt-4" style="font-weight: 500;">Unlimited Interview Calls</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-2">
                     <div class="card">
                         <p class="it-software"> Job & Placements</p>
-                        <i class="fa-solid fa-person-circle-check" aria-hidden="true" style='font-size:60px;color:rgb(0, 162, 255)'></i>
-                        <p class="text-center m-2" style="font-weight: 500;">99% Placements</p>
+                        <i class="fa-solid fa-person-circle-check" aria-hidden="true"
+                            style='font-size:60px;color:rgb(0, 162, 255)'></i>
+                        <p class="text-center mt-4" style="font-weight: 500;">99% Placements</p>
                     </div>
                 </div>
             </div>
@@ -396,7 +406,7 @@
                             <img src="/img/marker.svg" alt="marker">
                         </div>
                         <p>
-                            1st floor, 80 Feet Rd, opposite Canara Bank,<br> MET Layout, Ashwath Nagar, <br>Sanjaynagar,
+                            #131A, 1st floor, 80 Feet Rd, RMV 2nd stage<br> MET Layout, Ashwath Nagar, <br>Sanjaynagar,
                             Bengaluru-94.
                         </p>
                     </div>
@@ -421,38 +431,20 @@
         </div>
     </footer>
 
+   <!-- navbar dropdown folder javascript -->
+   <script src="/js-folder/dropdown.js"></script>
 
-    <!-- Add custom JavaScript -->
-    <script>
-        function showDropdown() {
-            document.querySelector(".dropdown-menu").classList.add("show");
-        }
+   <!-- accordian section javascript -->
+   <script src="/js-folder/accordian.js"></script>
 
-        function hideDropdown() {
-            document.querySelector(".dropdown-menu").classList.remove("show");
-        }
-    </script>
+   <!-- footer section javascript -->
+   <script src="/js-folder/fadeup.js"></script>
 
-    <!-- accordian section javascript -->
+   <!-- chatbot integration code  -->
+   <script src="/js-folder/chatbot.js"></script>
 
-    <script src="/js-folder/accordian.js"></script>
-
-    <!-- footer section javascript -->
-    <!-- <script src="/js-folder/fadeup.js"></script> -->
-
-    <!-- chatbot integration code  -->
-    <script src="/js-folder/chatbot.js"></script>
-
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-     crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-     crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-     crossorigin="anonymous"></script>
+   <!-- course search option javascript -->
+   <script src="/js-folder/search_opt.js"></script>
 
 </body>
 
